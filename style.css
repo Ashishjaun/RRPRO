@@ -1,0 +1,33 @@
+.employee-form {
+  border-style: solid;
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 8px 15px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+input[type="submit"] {
+  width: 30%;
+  padding: 8px 15px;
+  margin: 8px 0;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.submits {
+  text-align: right;
+}
+.span {
+  color: red;
+}
+h1 {
+  background-color: black;
+  color: white;
+}

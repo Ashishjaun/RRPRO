@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="as"><center>JavaScript Validation Form</center></h1>
+    <hr />
+    <div class="employee-form">
+      <form onsubmit=" return Validation()" autocomplete="off">
+        <div>
+          <label
+            >User name
+            <input type="text" name="username" id="username" />
+            <span id="user" class="span"></span>
+          </label>
+        </div>
+        <div>
+          <label
+            >Password
+            <input type="text" name="password" id="password" />
+            <span id="pass" class="span"></span>
+          </label>
+        </div>
+        <div>
+          <label
+            >Confirm Password
+            <input type="text" name="confirmpassword" id="confirmpassword" />
+            <span id="conpass" class="span"></span>
+          </label>
+        </div>
+        <div>
+          <label
+            >Mobile Number
+            <input type="text" name="mobilenumber" id="mobilenumber" />
+            <span id="mobile" class="span"></span>
+          </label>
+        </div>
+        <div>
+          <label
+            >Email Id
+            <input type="text" name="emailid" id="emailid" />
+            <span id="email" class="span"></span>
+          </label>
+        </div>
+        <div class="submits">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
